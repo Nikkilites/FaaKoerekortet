@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FåKoerekortet", "FåKoerekortet\FåKoerekortet.csproj", "{AC221C99-7177-4351-8ED6-E08B8B6D56D4}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{9A6F628B-3723-4AB2-B015-10965E3BBABC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC221C99-7177-4351-8ED6-E08B8B6D56D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC221C99-7177-4351-8ED6-E08B8B6D56D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC221C99-7177-4351-8ED6-E08B8B6D56D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC221C99-7177-4351-8ED6-E08B8B6D56D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6F628B-3723-4AB2-B015-10965E3BBABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6F628B-3723-4AB2-B015-10965E3BBABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6F628B-3723-4AB2-B015-10965E3BBABC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9A6F628B-3723-4AB2-B015-10965E3BBABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6F628B-3723-4AB2-B015-10965E3BBABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6F628B-3723-4AB2-B015-10965E3BBABC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC4C215E-0374-429A-80F1-37DCD8E7B572}
+	EndGlobalSection
+EndGlobal

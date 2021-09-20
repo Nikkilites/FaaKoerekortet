@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Sammenlign Priser";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+    <div>
+        <p>Her ses en liste over køreskoler</p>
+        <table>
+            <thread>
+                <th>Køreskole</th>
+                <th>Pris</th>
+            </thread>
+            @foreach (School school in Model.Schools)
+            {
+                <tr>
+                    <th>
+                        <a asp-area="" asp-controller="Prices" asp-action="School">@school.Name</a>
+                    </th>
+                    <th>@school.Price</th>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
